@@ -1,0 +1,186 @@
+/* General Dark Theme Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-image {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero .cta-button {
+    background: #ff7e5f;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 50px 20px;
+    background: #1c1c1c;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    color: #ffb74d;
+    margin-bottom: 1rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.step {
+    background: #333;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 5px;
+    color: #e0e0e0;
+    text-align: center;
+}
+
+.step img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+/* Calculator Section */
+.calculator {
+    padding: 50px 20px;
+    text-align: center;
+    color: #e0e0e0;
+    background-color: rgb(110, 106, 106);
+    border-style: double;
+    border-color: aliceblue;
+    border-radius: 8px;
+}
+
+.calculator h2 {
+    color: #ffb74d;
+}
+
+.calculator-form {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.calculator-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.calculator-form input,
+.calculator-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background: #333;
+    color: #e0e0e0;
+}
+
+button:hover {
+    background: #ff7e5f;
+}
+
+#result {
+    font-size: 1.2rem;
+    color: #ffb74d;
+    margin-top: 1rem;
+}
+
+/* Benefits Section */
+.benefits {
+    padding: 50px 20px;
+    background: #1c1c1c;
+    text-align: center;
+}
+
+.benefits h2 {
+    color: #ffb74d;
+}
+
+.benefit {
+    background: #333;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #e0e0e0;
+}
+
+.benefit img {
+    width: 40px;
+}
+
+/* FAQs Section */
+.faqs {
+    padding: 50px 20px;
+    background: #333;
+}
+
+.faqs h2 {
+    color: #ffb74d;
+    margin-bottom: 1rem;
+}
+
+details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5px;
+    color: #ffb74d;
+}
+
+details p {
+    color: #e0e0e0;
+}
+
+/* Footer */
+footer {
+    background: #121212;
+    color: #bdbdbd;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+}
